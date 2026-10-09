@@ -4,15 +4,19 @@ Reimplementação Java/Spring Boot da [API de referência](https://github.com/Li
 
 ## Executar
 
+Antes de executar verifique se voce possui os seguintes programas instalados:
+
 Requisitos: Java 17 e Maven 3.9+.
 
 ```bash
-mvn test
+mvn test 
 mvn spring-boot:run
 ```
 
 Swagger UI: `http://localhost:8080/swagger-ui.html`  
 OpenAPI: `http://localhost:8080/v3/api-docs`
+
+O Swagger UI permite visualizar a documentação interativa dos endpoints disponíveis. O OpenAPI apresenta a especificação da API em formato estruturado.
 
 ## Escopo
 
